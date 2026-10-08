@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Join alpha testing / Dołącz do testów
+    url: https://kritaqo.com/#testers
+    about: Read how to join and contact the founder.
+  - name: Private security report / Prywatne zgłoszenie bezpieczeństwa
+    url: https://kritaqo.com/#trust
+    about: Email founder@kritaqo.com instead of posting sensitive information publicly.

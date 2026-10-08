@@ -1,0 +1,25 @@
+name: Tester feedback / Opinia testera
+description: Tell us what worked and what was confusing.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need technical knowledge. English or Polish is welcome. Please keep account details and private conversations out of your feedback.
+  - type: input
+    id: version
+    attributes:
+      label: App version and system / Wersja i system
+      placeholder: 0.8.17-alpha.1, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What worked, failed or confused you? / Co działało, nie działało lub było niezrozumiałe?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would make it easier? / Co ułatwiłoby pracę?
