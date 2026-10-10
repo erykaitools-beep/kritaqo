@@ -2,9 +2,9 @@
 
 Your AI workspace: choose a lead assistant, bring different models into a visible team, and work across your own computers.
 
-**Early alpha · Windows 10/11 x64 · Testers wanted**
+**Early alpha · Windows 10/11 x64 · English interface · Testers wanted**
 
-[Website](https://kritaqo.com) · [Download the Windows alpha](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.17-alpha.1) · [Join testing](https://kritaqo.com/#testers) · [Report a problem](https://github.com/erykaitools-beep/kritaqo/issues/new/choose) · [Instrukcja po polsku](docs/TESTING_PL.md)
+[Website](https://kritaqo.com) · [Download the Windows alpha](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.18-alpha.2) · [Join testing](https://kritaqo.com/#testers) · [Report a problem](https://github.com/erykaitools-beep/kritaqo/issues/new/choose) · [Instrukcja po polsku](docs/TESTING_PL.md)
 
 ## What Kritaqo does today
 
@@ -22,7 +22,7 @@ This is an independent personal project by **Eryk**, before company registration
 
 You do not need to be a programmer. We especially need people trying Kritaqo for the first time on a new Windows setup.
 
-1. Download the EXE from [GitHub Releases](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.17-alpha.1) or the [website](https://kritaqo.com/#download).
+1. Download the EXE from [GitHub Releases](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.18-alpha.2) or the [website](https://kritaqo.com/#download).
 2. Install it on your own Windows computer and open Kritaqo from its icon.
 3. Connect one supported account or your own API key, select a master model and send a short message.
 4. Close the window and reopen it. Check that your conversation and selected model are still there.
@@ -34,7 +34,7 @@ Contact **founder@kritaqo.com** to join testing, or open an issue for feedback.
 
 ## Current limits and data
 
-The current installer is **0.8.17-alpha.1**. Earlier Windows builds have been used by the founder; this build and first-time setup on other computers still need tester feedback.
+The current installer is **0.8.18-alpha.2**. Earlier Windows builds have been used by the founder; this build and first-time setup on other computers still need tester feedback.
 
 Local use does not require Tailscale. Remote use currently requires Tailscale on your devices, an awake host computer and Kritaqo running there. In-app updates currently use the private test network; external testers can update by installing a newer EXE.
 

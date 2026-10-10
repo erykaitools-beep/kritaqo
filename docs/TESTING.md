@@ -1,10 +1,10 @@
 # First Windows test
 
-Current test build: **0.8.17-alpha.1**, Windows 10/11 x64.
+Current test build: **0.8.18-alpha.2**, Windows 10/11 x64. The application and installer now use English by default; you can chat in your preferred language.
 
 ## Install and connect
 
-1. [Download the installer](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.17-alpha.1). Choose the EXE asset, not GitHub's Source code archive.
+1. [Download the installer](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.18-alpha.2). Choose the EXE asset, not GitHub's Source code archive.
 2. Run it on your own computer. Leave provider setup enabled for a first installation; the initial download needs internet and can take a few minutes.
 3. Open Kritaqo from its desktop or Start menu icon. It uses installed Edge or Chrome to show a separate app window.
 4. In Accounts, connect one supported account or enter your own provider API key. A single working connection is enough. Enter account passwords only on the provider's login page.
@@ -29,7 +29,7 @@ Open [a bug report or tester feedback](https://github.com/erykaitools-beep/krita
 
 Tell us the app version, Windows version, what you clicked, what you expected and what happened. If a provider failed, its error code is useful. A model list by itself does not prove access to responses.
 
-The app can prepare a diagnostic report in Accounts → Help with testing. Review it before sharing. Nothing is sent automatically.
+The app can prepare a diagnostic report in Accounts → Testing help. Review it before sharing. Nothing is sent automatically.
 
 Do not attach passwords, API keys, one-time login codes, authentication files, complete data folders or private conversation screenshots. Sensitive security reports should go by email; see [SECURITY.md](../SECURITY.md).
 
