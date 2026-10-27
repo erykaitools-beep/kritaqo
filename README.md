@@ -1,10 +1,38 @@
-# kritaqo — omnia simul
+# Kritaqo — AI workspace across your computers
 
-Your AI workspace: choose a lead assistant, bring different models into a visible team, and work across your own computers.
+A desktop AI workspace for conversations, visible multi-model teamwork,
+and projects shared across your own computers.
 
-**Early alpha · Windows 10/11 x64 · English interface · Testers wanted**
+Early alpha · Windows 10/11 x64 · English interface · Testers wanted
 
 [Website](https://kritaqo.com) · [Download the Windows alpha](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.18-alpha.2) · [Join testing](https://kritaqo.com/#testers) · [Report a problem](https://github.com/erykaitools-beep/kritaqo/issues/new/choose) · [Instrukcja po polsku](docs/TESTING_PL.md)
+
+## A one-minute project review
+
+Kritaqo brings model access, saved conversations and a visible team workflow
+into one application. The product question is how to make work with multiple
+models and computers understandable to the person directing it.
+
+This is an independent, AI-assisted project originated and directed by
+**Eryk**. The public evidence is a Windows alpha, release notes and repeatable
+user test scenarios. **The application source is private**; this repository
+contains documentation, feedback forms and downloads.
+
+| Area | What a reviewer can inspect |
+|---|---|
+| Multi-model workflow | Planner, reviewer and coordinator contributions in the [team test](docs/TESTING.md#optional-tests) |
+| Conversation continuity and task lifecycle | Reopen, cancel and new-message scenarios in the [test guide](docs/TESTING.md) |
+| Work across computers | Explicit pairing, shared project discovery and offline status in the [alpha scope](ROADMAP.md) |
+| Product delivery | [Windows prerelease and verification notes](https://github.com/erykaitools-beep/kritaqo/releases/tag/v0.8.18-alpha.2) |
+| Account handling and limitations | [Data information](https://kritaqo.com/#trust) and [security reporting](SECURITY.md) |
+
+The release notes report 116 automated tests and isolated browser checks.
+Those are recorded release results, not a test suite that can be rerun from
+this documentation repository. First-install behavior on additional Windows
+computers still needs tester feedback.
+
+[German portfolio/CV text](docs/portfolio-summary-de.md) ·
+[Current limits](#current-limits-and-data)
 
 ## What Kritaqo does today
 
@@ -30,7 +58,7 @@ You do not need to be a programmer. We especially need people trying Kritaqo for
 
 [Detailed test guide](docs/TESTING.md) · [Known limits and plans](ROADMAP.md)
 
-Contact **founder@kritaqo.com** to join testing, or open an issue for feedback.
+Contact <founder@kritaqo.com> to join testing, or open an issue for feedback.
 
 ## Current limits and data
 
@@ -49,3 +77,11 @@ Your installation stores the workspace and account credentials. Cloud models rec
 This public repository contains project information, test guides, feedback forms and release downloads. **The application source code is currently private.** The source archives automatically offered by GitHub contain these repository documents, not the application.
 
 Kritaqo is not an official product of the model providers. Use only accounts and APIs you are entitled to use. Never post passwords, API keys, login files or your data folder in an issue. Report sensitive security concerns privately as described in [SECURITY.md](SECURITY.md).
+
+## Related projects
+
+- [M.A.R.I.A.](https://github.com/erykaitools-beep/Maria): a Python runtime for
+  long-running agents, with public code, regression tests and a recorded
+  integration demo involving Kritaqo.
+- [DelibraShift](https://github.com/erykaitools-beep/DelibraShift): a reproducible
+  agent benchmark with canonical experiment logs and an offline report.

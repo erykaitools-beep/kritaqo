@@ -19,7 +19,7 @@ This is a direction of work, not a release schedule or a promise that every inte
 - New account logins, provider access, API responses and Windows credential storage.
 - Update, restart, cancellation and return to saved conversations.
 - Two-computer project discovery, offline status and phone access.
-- The current 0.8.17 installer on more Windows systems.
+- The current 0.8.18-alpha.2 installer on more Windows systems.
 
 There is an unresolved Kimi access report. Anthropic API support exists; consumer Claude subscription login is not offered in this alpha. A provider/model appearing in the catalog does not guarantee response access.
 
